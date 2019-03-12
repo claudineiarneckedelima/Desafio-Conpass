@@ -115,7 +115,7 @@ class App extends Component {
                 <Routes />
                 </Main>
                 <Footer />
-                <Hotspot tagSelected={lastElementId} />
+                <Hotspot/>
 
                 <button id="addMarker" className="addMarker btn btn-primary" onClick={this.mouseAction}><i className="fa fa-plus fa-2x"></i></button>
 
