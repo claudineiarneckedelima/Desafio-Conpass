@@ -5,7 +5,7 @@ const Home = class App extends Component {
     render() {
         return (
             <div>
-                <div id="bemvindo" className="display-6">Bem-vindo!</div>
+                <div id="bemvindo" className="display-6">Bem-vindo <strong>Claudinei</strong>!</div>
                 <hr/>
 
                 <div className="row">

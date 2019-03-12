@@ -9,13 +9,13 @@ const Nav = class App extends Component {
                 <aside className="menu-area">
                     <nav className="menu">
                         <Link to="/" id="nav1">
-                            <i className="fa fa-home"> Dashboard</i>
+                            <i className="fa fa-home"></i> Dashboard
                         </Link>
                         <Link to="/user" id="nav2">
-                            <i className="fa fa-users"> Usuário</i>
+                            <i className="fa fa-users"></i> Usuário
                         </Link>
                         <Link to="/contato" id="nav3">
-                            <i className="fa fa-users"> Contato</i>
+                            <i className="fa fa-users"></i> Contato
                         </Link>
                     </nav>
                 </aside>
@@ -23,4 +23,4 @@ const Nav = class App extends Component {
         )
     }
 }
-export default Nav; 
+export default Nav;
